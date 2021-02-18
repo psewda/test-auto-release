@@ -1,3 +1,22 @@
+# v1.2.4 (Thu Feb 18 2021)
+
+
+
+---
+
+# v0.5.0 (Thu Feb 18 2021)
+
+#### 🚀 Enhancement
+
+- C200 [#6](https://github.com/psewda/test-auto-release/pull/6) ([@psewda](https://github.com/psewda))
+- Another PR [#5](https://github.com/psewda/test-auto-release/pull/5) ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v0.5.0 (Thu Feb 18 2021)
 
 #### 🚀 Enhancement
