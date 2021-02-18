@@ -1,3 +1,15 @@
+# v2.0.10 (Thu Feb 18 2021)
+
+#### ⚠️ Pushed to `main`
+
+- x (psewdablr@gmail.com)
+
+#### Authors: 1
+
+- Prakash Sewda (psewdablr@gmail.com)
+
+---
+
 # v2.0.9 (Thu Feb 18 2021)
 
 #### ⚠️ Pushed to `main`
