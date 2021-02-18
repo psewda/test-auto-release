@@ -1,3 +1,15 @@
+# v2.0.0 (Thu Feb 18 2021)
+
+#### 💥 Breaking Change
+
+- change label [#7](https://github.com/psewda/test-auto-release/pull/7) ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v1.2.4 (Thu Feb 18 2021)
 
 

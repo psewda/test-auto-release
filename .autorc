@@ -1,7 +1,5 @@
 {
-  "plugins": [
-    "released"
-  ],
+  "plugins": [],
   "onlyPublishWithReleaseLabel": false,
   "owner": "psewda",
   "repo": "test-auto-release",
