@@ -1,3 +1,15 @@
+# v2.0.12 (Thu Feb 18 2021)
+
+#### 🐛 Bug Fix
+
+- hello [#12](https://github.com/psewda/test-auto-release/pull/12) ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v2.0.11 (Thu Feb 18 2021)
 
 
