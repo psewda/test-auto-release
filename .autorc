@@ -2,6 +2,7 @@
   "plugins": [
     "released"
   ],
+  "onlyPublishWithReleaseLabel": false,
   "owner": "psewda",
   "repo": "test-auto-release",
   "name": "Prakash Sewda",
