@@ -4,7 +4,7 @@
       [
         "exec",
         {
-           "beforeCommitChangelog": "date > dt.txt"
+           "beforeCommitChangelog": "/home/psewda/code/plugin.sh"
         }
       ]
   ],
