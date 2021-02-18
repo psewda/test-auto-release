@@ -4,7 +4,7 @@
       [
         "exec",
         {
-           "beforeCommitChangelog": "/home/psewda/code/plugin.sh"
+           "afterChangelog": "/home/psewda/code/plugin.sh"
         }
       ]
   ],
