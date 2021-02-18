@@ -4,6 +4,12 @@
 
 ---
 
+# v2.0.1 (Thu Feb 18 2021)
+
+
+
+---
+
 # v2.0.0 (Thu Feb 18 2021)
 
 #### 💥 Breaking Change
