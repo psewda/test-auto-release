@@ -1,3 +1,24 @@
+# v3.0.0 (Thu Feb 18 2021)
+
+#### 💥 Breaking Change
+
+- A1 [#14](https://github.com/psewda/test-auto-release/pull/14) ([@psewda](https://github.com/psewda))
+
+#### 🚀 Enhancement
+
+- hello1 [#13](https://github.com/psewda/test-auto-release/pull/13) ([@psewda](https://github.com/psewda))
+
+#### ⚠️ Pushed to `main`
+
+- s ([@psewda](https://github.com/psewda))
+- dd ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v2.0.12 (Thu Feb 18 2021)
 
 #### 🐛 Bug Fix
