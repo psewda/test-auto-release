@@ -1,5 +1,5 @@
 {
-  "plugins": [],
+  "plugins": ["git-tag"],
   "onlyPublishWithReleaseLabel": false,
   "owner": "psewda",
   "repo": "test-auto-release",
