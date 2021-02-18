@@ -1,5 +1,13 @@
 {
-  "plugins": ["git-tag"],
+  "plugins": [
+      "git-tag",
+      [
+        "exec",
+        {
+           "beforeCommitChangelog": "go version"
+        }
+      ]
+  ],
   "onlyPublishWithReleaseLabel": false,
   "owner": "psewda",
   "repo": "test-auto-release",
