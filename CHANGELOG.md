@@ -1,3 +1,9 @@
+# v1.2.4 (Thu Feb 18 2021)
+
+
+
+---
+
 # v0.5.0 (Thu Feb 18 2021)
 
 #### 🚀 Enhancement
