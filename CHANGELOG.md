@@ -1,5 +1,21 @@
 # v2.0.1 (Thu Feb 18 2021)
 
+#### 🐛 Bug Fix
+
+- xyz [#10](https://github.com/psewda/test-auto-release/pull/10) ([@psewda](https://github.com/psewda))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/psewda/test-auto-release into main ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
+# v2.0.1 (Thu Feb 18 2021)
+
 
 
 ---
