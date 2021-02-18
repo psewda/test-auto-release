@@ -1,3 +1,15 @@
+# v2.0.5 (Thu Feb 18 2021)
+
+#### 🐛 Bug Fix
+
+- change [#11](https://github.com/psewda/test-auto-release/pull/11) ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v2.0.4 (Thu Feb 18 2021)
 
 
