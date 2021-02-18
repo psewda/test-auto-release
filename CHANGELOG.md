@@ -2,6 +2,19 @@
 
 #### ⚠️ Pushed to `main`
 
+- s (psewdablr@gmail.com)
+- sss (psewdablr@gmail.com)
+
+#### Authors: 1
+
+- Prakash Sewda (psewdablr@gmail.com)
+
+---
+
+# v3.0.3 (Thu Feb 18 2021)
+
+#### ⚠️ Pushed to `main`
+
 - sss (psewdablr@gmail.com)
 
 #### Authors: 1
