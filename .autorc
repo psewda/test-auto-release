@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "released"
+  ],
+  "owner": "psewda",
+  "repo": "test-auto-release",
+  "name": "Prakash Sewda",
+  "email": "psewdablr@gmail.com"
+}
