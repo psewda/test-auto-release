@@ -1,3 +1,19 @@
+# v3.1.0 (Fri Feb 19 2021)
+
+#### 🚀 Enhancement
+
+- Do this [#15](https://github.com/psewda/test-auto-release/pull/15) ([@psewda](https://github.com/psewda))
+
+#### ⚠️ Pushed to `main`
+
+- dd ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v3.0.3 (Thu Feb 18 2021)
 
 #### ⚠️ Pushed to `main`
