@@ -1,3 +1,15 @@
+# v4.0.6 (Mon Feb 22 2021)
+
+#### ⚠️ Pushed to `main`
+
+- added ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v4.0.5 (Mon Feb 22 2021)
 
 #### 🐛 Bug Fix
