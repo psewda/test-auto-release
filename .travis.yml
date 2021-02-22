@@ -9,7 +9,7 @@ script:
 jobs:
   include:
     - stage: deploy
-      if: branch = master
+      if: branch = main
       install:
         - curl -LJO https://github.com/intuit/auto/releases/download/v10.16.6/auto-linux.gz
         - gunzip auto-linux.gz > /usr/local/bin/auto
