@@ -5,7 +5,7 @@ arch: amd64
 language: go
 go:
   - 1.15.x
-  - master
+  # - master
 
 script:
   - go build ./cmd/server/main.go
@@ -16,7 +16,8 @@ jobs:
       if: branch = main
       install:
         - curl -LJO https://github.com/intuit/auto/releases/download/v10.16.6/auto-linux.gz
-        - sudo gunzip auto-linux.gz > /usr/local/bin/auto
+        - gunzip auto-linux.gz
+        - sudo mv auto-linux /usr/local/bin/auto
         - sudo chmod a+x /usr/local/bin/auto
       script: skip
       before_deploy: ./ci/update_version.sh
