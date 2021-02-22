@@ -25,4 +25,5 @@ jobs:
         - provider: script
           script: echo $TRAVIS_COMMIT_MESSAGE
           cleanup: true
-          branch: main
+          on:
+            branch: main
