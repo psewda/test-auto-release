@@ -24,7 +24,7 @@ jobs:
         - provider: script
           go: 1.15.x
           # script: ./ci/update_version.sh && auto shipit    
-          script: auto shipit    
+          script: auto shipit -vv
           cleanup: true
           on:
             branch: main
