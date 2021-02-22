@@ -9,8 +9,12 @@ script:
 jobs:
   include:
     - stage: deploy
-      script: skip
       if: branch = master
+      install:
+        - curl -LJO https://github.com/intuit/auto/releases/download/v10.16.6/auto-linux.gz
+        - gunzip auto-linux.gz > /usr/local/bin/auto
+        - chmod a+x /usr/local/bin/auto
+      script: skip
       before_deploy: ./ci/update_version.sh
       deploy:
         - provider: script
