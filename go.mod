@@ -1,3 +1,3 @@
-module github.com/psewda/test-auto-release
+module github.com/psewda/autorelease
 
 go 1.15
