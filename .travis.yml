@@ -1,7 +1,18 @@
 language: go
 go:
   - 1.15.x
+  - master
 
 script:
   - go build main.go
 
+jobs:
+  include:
+    - stage: deploy
+      script: skip
+      if: branch = master
+      before_deploy: ./ci/update_version.sh
+      deploy:
+        - provider: script
+          script: echo $TRAVIS_COMMIT_MESSAGE
+          skip-cleanup: true
