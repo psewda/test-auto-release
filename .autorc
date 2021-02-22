@@ -1,12 +1,6 @@
 {
   "plugins": [
-      "git-tag",
-      [
-        "exec",
-        {
-           "afterChangelog": "/home/psewda/code/plugin.sh"
-        }
-      ]
+      "git-tag"
   ],
   "owner": "psewda",
   "repo": "test-auto-release",

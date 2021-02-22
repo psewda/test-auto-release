@@ -45,6 +45,6 @@ if [[ $bump_type == @(major|minor|patch) ]]; then
 
     # do git commit
     git add $version_file
-    git comit -m "ci: bump version to: $new_version [skip ci]"
+    git commit -m "ci: bump version to: $new_version [skip ci]"
     echo "committed version.go"
 fi
