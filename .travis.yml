@@ -18,6 +18,8 @@ jobs:
         - gunzip auto-linux.gz
         - mv auto-linux $GOPATH/bin/auto
         - chmod +x $GOPATH/bin/auto
+      go: 1.15.x
+      script: skip
       deploy:
         - provider: script
           script: git checkout main && ./ci/update_version.sh && auto shipit    
