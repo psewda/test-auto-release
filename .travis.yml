@@ -1,3 +1,7 @@
+os: linux
+dist: focal
+arch: amd64
+
 language: go
 go:
   - 1.15.x
@@ -12,11 +16,11 @@ jobs:
       if: branch = main
       install:
         - curl -LJO https://github.com/intuit/auto/releases/download/v10.16.6/auto-linux.gz
-        - gunzip auto-linux.gz > /usr/local/bin/auto
-        - chmod a+x /usr/local/bin/auto
+        - sudo gunzip auto-linux.gz > /usr/local/bin/auto
+        - sudo chmod a+x /usr/local/bin/auto
       script: skip
       before_deploy: ./ci/update_version.sh
       deploy:
         - provider: script
           script: echo $TRAVIS_COMMIT_MESSAGE
-          skip-cleanup: true
+          cleanup: true
