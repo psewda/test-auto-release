@@ -17,8 +17,8 @@ jobs:
       install:
         - curl -LJO https://github.com/intuit/auto/releases/download/v10.16.6/auto-linux.gz
         - gunzip auto-linux.gz
-        - sudo mv auto-linux /usr/local/bin/auto
-        - sudo chmod a+x /usr/local/bin/auto
+        - mv auto-linux $GOPATH/bin/auto
+        - chmod +x $GOPATH/bin/auto
       script: skip
       deploy:
         - provider: script
