@@ -22,7 +22,9 @@ jobs:
       script: skip
       deploy:
         - provider: script
-          script: ./ci/update_version.sh && auto shipit    
+          go: 1.15.x
+          # script: ./ci/update_version.sh && auto shipit    
+          script: auto shipit    
           cleanup: true
           on:
             branch: main
