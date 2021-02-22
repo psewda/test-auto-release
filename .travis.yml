@@ -1,5 +1,4 @@
 os: linux
-dist: focal
 arch: amd64
 
 language: go
@@ -12,14 +11,13 @@ script:
 
 jobs:
   include:
-    - stage: deploy
+    - stage: release
       if: branch = main AND type = push
       install:
         - curl -LJO https://github.com/intuit/auto/releases/download/v10.16.6/auto-linux.gz
         - gunzip auto-linux.gz
         - mv auto-linux $GOPATH/bin/auto
         - chmod +x $GOPATH/bin/auto
-      script: skip
       deploy:
         - provider: script
           script: git checkout main && ./ci/update_version.sh && auto shipit    
