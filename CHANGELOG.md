@@ -1,3 +1,19 @@
+# v4.0.5 (Mon Feb 22 2021)
+
+#### 🐛 Bug Fix
+
+- added data [#18](https://github.com/psewda/test-auto-release/pull/18) ([@psewda](https://github.com/psewda))
+
+#### 📝 Documentation
+
+- documentation [#17](https://github.com/psewda/test-auto-release/pull/17) ([@psewda](https://github.com/psewda))
+
+#### Authors: 1
+
+- Prakash Sewda ([@psewda](https://github.com/psewda))
+
+---
+
 # v4.0.4 (Mon Feb 22 2021)
 
 #### ⚠️ Pushed to `main`
