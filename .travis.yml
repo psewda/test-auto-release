@@ -10,10 +10,12 @@ go:
 script:
   - go build ./cmd/server/main.go
 
+if: tag IS blank
+
 jobs:
   include:
     - stage: deploy
-      if: branch = main
+      if: branch = main AND type = push
       install:
         - curl -LJO https://github.com/intuit/auto/releases/download/v10.16.6/auto-linux.gz
         - gunzip auto-linux.gz
