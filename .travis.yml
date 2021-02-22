@@ -5,7 +5,7 @@ arch: amd64
 language: go
 go:
   - 1.15.x
-  # - master
+  - master
 
 script:
   - go build ./cmd/server/main.go
@@ -22,9 +22,7 @@ jobs:
       script: skip
       deploy:
         - provider: script
-          script: 
-          - ./ci/update_version.sh
-          - echo $TRAVIS_COMMIT_MESSAGE
+          script: ./ci/update_version.sh && auto shipit    
           cleanup: true
           on:
             branch: main
